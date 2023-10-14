@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body{
+    background-color: #a5d2ff;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+section{
+    background-color:#092F55;
+    width: 700px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.terminal{
+    border-radius: inherit;
+}
+
+.terminal_header{
+    width: 700px;
+    height: 35px;
+    border-radius: 15px 15px 0 0 ;
+    background-color: #1f1f1ff1;
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+    border-radius: 50px;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+.icon.red{
+    background-color: red;
+}
+
+.icon.yellow{
+    background-color: yellow;
+}
+
+.icon.green{
+    background-color: green;
+}
+
+.terminal_cod{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.binaryBrains_logo{
+    padding: 25px 0 25px 0;
+    color: white;
+    font-size: 60%;
+    margin: auto;
+}
+
+span.code{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    color: #EF6DC8;
+}
+
+
+span.code.php{
+    color: rgb(178, 176, 176);
+
+    border-right: 4px solid;
+    width: max-content;
+    animation: teclear 3s steps(21), efecto .7s step-end infinite;
+}
+
+@keyframes teclear {
+
+    from{
+        clip-path: polygon(0 0, 0 0 , 0 100%, 0% 100%);
+
+    }
+    to{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}
+
+@keyframes efecto{
+    50%{
+        border-color: transparent;
+    }
+}
