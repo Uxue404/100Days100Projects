@@ -1,0 +1,38 @@
+.root{
+    -fx-background-color: white;
+    -fx-padding: 30px;
+}
+
+#botonLimpiar,#comboBox,#labelDivisa,#textCantidad {
+    -fx-font-size: 20px;
+    -fx-min-width: 340px;
+    -fx-min-height: 50px;
+}
+
+#textCantidad{
+    -fx-background-color: transparent;
+    -fx-border-color: #004BFF;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-style: solid;
+}
+
+#labelDivisa,#textCantidad{
+    -fx-text-fill: #004BFF;
+}
+
+#comboBox{
+    -fx-background-color: white;
+    -fx-border-color: grey;
+    -fx-border-width: 0.5px;
+
+}
+
+#botonLimpiar{
+    -fx-background-color: #004BFF;
+    -fx-text-fill: white;
+}
+#labelDivisa{
+    -fx-font-size: 30px;
+    -fx-alignment: center;
+}
+
